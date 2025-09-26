@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: myblog-1
+  datasource:
+#    url: jdbc:h2:file:./data/h2db
+   url: jdbc:mysql://localhost:3306/spring_learn_1
+   username: root
+   password: root
+  jpa:
+    hibernate:
+      ddl-auto: create
+
+server:
+  port: 9000
+
+#logging:
+#  file:
+#    path: logs
+#    name: myblog.log
+#  level:
+#    root: warn
+#    com.dfxy: trace
+
+blog:
+  title: Blog
+  url: https://abc.com
+  a: hhhhhh
+  b: oooooo
+  banner:
+    title: hi
+
