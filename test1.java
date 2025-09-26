@@ -6,3 +6,4 @@ content = chatRequest.system("你是一个会回答通知公告相关问题的�
 				.tools(diTools)
 				.stream()
 				.content();
+new sout
